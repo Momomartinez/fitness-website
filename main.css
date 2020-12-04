@@ -5,6 +5,7 @@
 body{
   margin: 0;
   font-family: 'Rubik', sans-serif;
+  background: rgb(29, 28, 28);
 }
 
 .main-header{
@@ -60,3 +61,36 @@ body{
 }
 
 
+/* jumbotron image section */
+
+#jumbotron-image{
+  background: url(/imgs/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg);
+  height: 550px;
+  padding: 48px;
+  width: 100%;
+}
+
+.jumbotron-title, p{
+  color: white;
+}
+
+/* memberships section */
+#membership-section{
+  width: 100%;
+  height: 500px;
+}
+
+.section-title{
+  text-align: center;
+  color: white;
+  padding-top: 32px;
+}
+
+.section-title span{
+ color: red;
+ 
+}
+
+.section-title + p{
+  text-align: center;
+}
