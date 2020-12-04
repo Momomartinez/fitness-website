@@ -53,4 +53,10 @@ body{
   font-weight: bold;
 }
 
+.main-nav__item a:hover,
+.main-nav__item a:active{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
 
