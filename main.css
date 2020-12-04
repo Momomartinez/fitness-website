@@ -1,96 +1,104 @@
-*{
- box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   background: rgb(29, 28, 28);
+  color: white;
 }
 
-.main-header{
+.main-header {
   background: rgb(29, 28, 28);
   width: 100%;
   padding: 8px 16px;
 }
 
-.main-header div{ 
+.main-header div {
   display: inline-block;
   vertical-align: middle;
 }
 
-.main-header__brand{
+.main-header__brand {
   font-family: 'Hind', sans-serif;
   font-size: 35px;
   text-decoration: none;
   color: white;
   padding: 8px 16px;
 }
-.main-header__brand > span{
+.main-header__brand > span {
   color: red;
 }
-.main-nav{
+.main-nav {
   display: inline-block;
   width: calc(100% - 160px);
   text-align: right;
   vertical-align: middle;
 }
 
-.main-nav__items{
+.main-nav__items {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.main-nav__item{
+.main-nav__item {
   display: inline-block;
   vertical-align: middle;
   padding: 0px 16px;
 }
 
-.main-nav__item a{
+.main-nav__item a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
 .main-nav__item a:hover,
-.main-nav__item a:active{
+.main-nav__item a:active {
   color: red;
   border-bottom: 2px solid red;
 }
 
-
 /* jumbotron image section */
 
-#jumbotron-image{
+#jumbotron-image {
   background: url(/imgs/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg);
   height: 550px;
   padding: 48px;
   width: 100%;
 }
 
-.jumbotron-title, p{
+.jumbotron-title,
+p {
   color: white;
 }
 
 /* memberships section */
-#training-plans{
+#training-plans {
   width: 100%;
   height: 500px;
+  text-align: center;
+  padding: 32px;
 }
 
-.section-title{
+.section-title {
   text-align: center;
   color: white;
   padding-top: 32px;
+  vertical-align: middle;
 }
 
-.section-title span{
- color: red;
- 
+.section-title span {
+  color: red;
 }
 
-.section-title + p{
+.section-title + p {
   text-align: center;
+}
+
+.training-plan {
+  display: inline-block;
+  width: 30%;
 }
