@@ -114,9 +114,9 @@ p {
 
 .training-plan__price {
   color: rgb(117, 23, 7);
-}
+  /* } */
 
-.training-plan__features {
+  /* .training-plan__features  */
   margin: 0;
   padding: 0;
   list-style: none;
