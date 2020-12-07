@@ -114,12 +114,16 @@ p {
 
 .training-plan__price {
   color: rgb(117, 23, 7);
-  /* } */
+}
 
-  /* .training-plan__features  */
+.training-plan__features {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.training-plan__feature{
+  margin: 8px 0;
 }
 
 .training-plan--highlighted {
@@ -135,4 +139,19 @@ p {
 }
 .training-plan--highlighted .training-plan__title {
   color: white;
+}
+
+.button{
+  background:  rgb(117, 23, 7);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1.5px solid rgb(117, 23, 7);
+}
+
+.button:focus {
+  outline: none;
 }
