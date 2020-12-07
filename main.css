@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  background: rgb(29, 28, 28);
+  background: rgba(29, 28, 28);
   color: white;
 }
 
@@ -87,6 +87,7 @@ p {
   color: white;
   vertical-align: middle;
   margin-bottom: 0;
+  font-size: 35px;
 }
 
 .section-title span {
@@ -158,3 +159,39 @@ p {
 
 
  /* key-services section */
+ #key-services{
+  background: rgb(56, 53, 53);
+  padding: 32px;
+  margin-top: 80px;
+ }
+
+ #key-services .section-title{
+   margin: 32px;
+ }
+
+ .key-service__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+ }
+
+ .key-service{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  }
+
+  .key-service__icon{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin: auto;
+    border:  rgb(224, 47, 15) 2px solid;
+  }
+ 
+  .key-service__description{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
