@@ -103,17 +103,9 @@ p {
   display: inline-block;
   width: 30%;
   background: rgb(245, 116, 93);
-  color: white;
+  color: rgb(117, 23, 7);
   padding: 16px;
   margin: 8px;
-}
-
-.training-plan__title {
-  color: white;
-}
-
-.training-plan__price {
-  color: rgb(117, 23, 7);
 }
 
 .training-plan__features {
@@ -122,8 +114,12 @@ p {
   list-style: none;
 }
 
-.training-plan__feature{
+.training-plan__feature {
   margin: 8px 0;
+}
+
+.training-plan__price {
+  color: white;
 }
 
 .training-plan--highlighted {
@@ -141,8 +137,12 @@ p {
   color: white;
 }
 
-.button{
-  background:  rgb(117, 23, 7);
+.training-plan--highlighted .training-plan__price {
+  color: rgb(117, 23, 7);
+}
+
+.button {
+  background: rgb(117, 23, 7);
   color: white;
   padding: 8px;
   border-radius: 8px;
