@@ -1,65 +1,6 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  font-family: 'Rubik', sans-serif;
-  background: rgba(29, 28, 28);
-  color: white;
-}
 
-.main-header {
-  background: rgb(29, 28, 28);
-  width: 100%;
-  padding: 8px 16px;
-}
 
-.main-header div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-header__brand {
-  font-family: 'Hind', sans-serif;
-  font-size: 35px;
-  text-decoration: none;
-  color: white;
-  padding: 8px 16px;
-}
-.main-header__brand > span {
-  color: rgb(224, 47, 15);
-}
-.main-nav {
-  display: inline-block;
-  width: calc(100% - 160px);
-  text-align: right;
-  vertical-align: middle;
-}
-
-.main-nav__items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.main-nav__item {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0px 16px;
-}
-
-.main-nav__item a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-  color: rgb(224, 47, 15);
-  border-bottom: 2px solid rgb(224, 47, 15);
-}
 
 /* jumbotron image section */
 
@@ -72,26 +13,32 @@ body {
 
 .jumbotron-title,
 p {
-  color: white;
+  color: #ffffff;
 }
 
 /* about-us seciton */
 
-#about-us{
-  background: rgb(56, 53, 53);
-  padding: 32px;
-  height: 400px;
+#about-us {
+  width: 80%;
+  margin: auto;
 }
 
-#about-us .section-title{
+#about-us .section-title {
   margin: 32px;
+}
+
+
+/* our-trainers section */
+#our-trainers {
+  height: 600px;
+  padding: 32px;
 }
 
 /* memberships section */
 #training-plans {
   width: 100%;
   text-align: center;
-  padding: 32px;
+  padding: 48px;
 }
 
 .section-title {
@@ -103,7 +50,7 @@ p {
 }
 
 .section-title span {
-  color: rgb(224, 47, 15);
+  color: #e02f0f;
 }
 
 .section-title + p {
@@ -115,7 +62,7 @@ p {
 .training-plan {
   display: inline-block;
   width: 30%;
-  background: rgb(49, 49, 49);
+  background: #242424;
   color: white;
   padding: 16px;
   margin: 8px;
@@ -129,7 +76,7 @@ p {
 
 .training-plan__feature {
   margin: 8px 0;
-  color: lightgray;
+  color: #aaaaaa;
 }
 
 .training-plan__title {
@@ -149,7 +96,7 @@ p {
   box-shadow: 2px 2px 2px;
 }
 .training-plan--highlighted .training-plan__title,
-.training-plan--highlighted .training-plan__feature{
+.training-plan--highlighted .training-plan__feature {
   color: white;
 }
 
@@ -157,67 +104,73 @@ p {
   color: rgb(117, 23, 7);
 }
 
-.button {
-  background: transparent;
-  color: rgb(224, 47, 15);
-  padding: 8px;
-  border-radius: 8px;
-  font: inherit;
-  font-weight: bold;
-  cursor: pointer;
-  border: 1.5px solid white;
-}
-
-.training-plan--highlighted button{
-background: rgb(117, 23, 7);
-border: 1.5px solid rgb(117, 23, 7);
+.training-plan--highlighted button {
+  background: rgb(117, 23, 7);
+  border: 2px solid rgb(117, 23, 7);
   color: white;
 }
 
-.button:focus {
-  outline: none;
+/* key-services section */
+#key-services {
+  background: url(/imgs/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg);
+  padding: 32px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#key-services .section-title {
+  margin: 0px;
+}
 
- /* key-services section */
- #key-services{
-  background: rgb(56, 53, 53);
-  padding: 32px;
-  margin-top: 80px;
- }
-
- #key-services .section-title{
-   margin: 32px;
- }
-
- .key-service__list{
+.key-service__list {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
- }
+}
 
- .key-service{
+.key-service {
   display: inline-block;
   vertical-align: top;
   width: 20%;
-  }
+}
 
-  .key-service__icon{
-    height: 128px;
-    width: 128px;
-    border-radius: 50%;
-    margin: auto;
-    border:  rgb(224, 47, 15) 2px solid;
-  }
- 
-  .key-service__description{
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-  }
+.key-service__icon {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  margin: auto;
+  border: #e02f0f 2px solid;
+}
 
-  /* our-trainers section */
-  #our-trainers{
-    height: 600px;
-  }
+.key-service__description {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/* our-blog section */
+#our-blog{
+  height: 500px;
+}
+
+/* client-reviews section */
+#client-reviews{
+  height: 500px;
+  background: url(/imgs/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg);
+  padding: 32px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* banner section */
+
+#banner{
+  height: 250px;
+  background: #e02f0f;
+}
