@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background: #191919;
+  color: white;
+}
+
+/* main header/ navbar */
+.main-header {
+  background: rgb(29, 28, 28);
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.main-header div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  font-family: 'Hind', sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+}
+.main-header__brand > span {
+  color: #e02f0f;
+}
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 160px);
+  text-align: right;
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: #e02f0f;
+  border-bottom: 2px solid #e02f0f;
+}
+
+/* main-footer section */
+.main-footer {
+  background: #242424;
+  padding: 48px;
+}
+
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-footer__link {
+  padding: 0 16px;
+  display: inline-block;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* style for button for all pages */
+.button {
+  background: transparent;
+  color: rgb(224, 47, 15);
+  padding: 8px;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.button:focus {
+  outline: none;
+}
